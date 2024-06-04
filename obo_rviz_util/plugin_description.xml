@@ -1,0 +1,19 @@
+<library path="libobo_rviz_util">
+
+    <class name="obo_rviz_util/ControlPanel"
+           type="obo_rviz_util::ControlPanel"
+           base_class_type="rviz_common::Panel">
+        <description>
+            Control panel for various operations.
+        </description>
+    </class>
+
+    <class name="obo_rviz_util/CustomNavTool"
+           type="obo_rviz_util::CustomNavTool"
+           base_class_type="rviz_common::Tool">
+        <description>
+            Custom navigation tool for RViz.
+        </description>
+    </class>
+</library>
+
